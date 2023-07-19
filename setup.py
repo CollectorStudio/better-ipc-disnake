@@ -14,7 +14,7 @@ long_description = (this_directory / "README.md").read_text(encoding="utf8")
 
 _version_re = re.compile(r'__version__\s+=\s+(.*)')
 
-with open('discord/ext/ipc/__init__.py', 'rb') as f:
+with open('disnake.ipc/ext/ipc/__init__.py', 'rb') as f:
     version = str(ast.literal_eval(_version_re.search(f.read().decode('utf-8')).group(1)))
 
 setuptools.setup(
@@ -26,7 +26,7 @@ setuptools.setup(
     url="https://github.com/MiroslavRosenov/better-ipc",
     description="A high-performance inter-process communication library designed to work with the latest version of discord.py",
     packages=[
-        "discord.ext.ipc"
+        "disnake.ipc.ext.ipc"
     ],
     project_urls={
         "Source": "https://github.com/MiroslavRosenov/better-ipc",
@@ -48,7 +48,7 @@ setuptools.setup(
         "Topic :: Software Development :: Libraries",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
-    keywords=["better-ipc", "ipc", "python", "discord.py"],
+    keywords=["better-ipc", "ipc", "python", "disnake"],
     long_description=long_description,
     install_requires=requirements,
     dependencies=dependencies,

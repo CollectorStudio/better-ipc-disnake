@@ -6,7 +6,7 @@ import json
 import contextlib
 import inspect
 
-from discord.ext.commands import Bot, Cog
+from disnake.ext.commands import Bot, Cog
 from typing import TYPE_CHECKING, Optional, Callable, ClassVar, TypeVar, Union, Type, Awaitable, Tuple, Any, Dict
 
 from websockets.exceptions import ConnectionClosedError, ConnectionClosed
