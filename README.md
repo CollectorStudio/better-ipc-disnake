@@ -1,5 +1,7 @@
 # Better IPC
 
+# This is just a small rewrite of the original repo to work with disnake!
+
 <a href="https://pypi.org/project/better-ipc/" target="_blank"><img src="https://img.shields.io/pypi/v/better-ipc"></a>
 <img src="https://img.shields.io/pypi/pyversions/better-ipc">
 <img src="https://img.shields.io/github/last-commit/MiroslavRosenov/better-ipc">
@@ -11,17 +13,6 @@
 <img src="https://raw.githubusercontent.com/MiroslavRosenov/better-ipc/main/banner.png">
 
 This library is *based* on [discord-ext-ipc](https://github.com/Ext-Creators/discord-ext-ipc), which is no longer maintained.
-
-# Installation
-> ### Stable version
-#### For Linux
-```shell
-python3 -m pip install -U better-ipc
-```
-#### For Windows
-```shell
-py -m pip install -U better-ipc
-```
 
 > ### Development version
 #### For Linux
