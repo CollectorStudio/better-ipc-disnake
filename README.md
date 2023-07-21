@@ -6,9 +6,8 @@
 <img src="https://img.shields.io/pypi/pyversions/better-ipc">
 <img src="https://img.shields.io/github/last-commit/MiroslavRosenov/better-ipc">
 <img src="https://img.shields.io/github/license/MiroslavRosenov/better-ipc">
-<a href="https://discord.gg/Rpg7zjFYsh" target="_blank"><img src="https://img.shields.io/discord/875005644594372638?label=discord"></a>
 
-## High-performance inter-process communication library designed to work with the latest version of [discord.py](https://github.com/Rapptz/discord.py)
+## High-performance inter-process communication library designed to work with the latest version of Disnake
 
 <img src="https://raw.githubusercontent.com/MiroslavRosenov/better-ipc/main/banner.png">
 
@@ -17,21 +16,15 @@ This library is *based* on [discord-ext-ipc](https://github.com/Ext-Creators/dis
 > ### Development version
 #### For Linux
 ```shell
-python3 -m pip install -U git+https://github.com/MiroslavRosenov/better-ipc
+python3 -m pip install -U git+https://github.com/CollectorStudio/better-ipc-disnake
 ```
 #### For Windows
 ```shell
-py -m pip install -U git+https://github.com/MiroslavRosenov/better-ipc
+py -m pip install -U git+https://github.com/CollectorStudio/better-ipc-disnake
 ```
 
 
-# Support
 
-[Support server](https://discord.gg/Rpg7zjFYsh)
-
-[Official documentation](https://docs.better-ipc.xyz)
-
-# Examples
 
 ### Client example
 ```python
